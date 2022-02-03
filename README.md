@@ -1,3 +1,7 @@
+# Info
+
+24/7 Discord Nitro Generator by KunalSingh19 
+
 # Requirements
 
 You Need Your Discord Token only for this 
