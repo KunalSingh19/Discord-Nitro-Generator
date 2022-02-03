@@ -16,8 +16,11 @@ Click On New Repository Secret
 
 <img src="/img/20220203_111804.jpg"></img>
 
-Add Action Name ```TOKEN``` in value add Token
+Add  Name ```TOKEN``` and in value add Discord Token
 
 <img src="/img/20220203_111817.jpg"></img>
 
+Warning Don't Use On Main Acc Got Banned. I suggest To Use Alt acc
 
+
+This Code is Made for Education Purposes
