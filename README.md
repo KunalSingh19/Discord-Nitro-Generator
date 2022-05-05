@@ -1,6 +1,6 @@
 # Info
 
-24/7 Discord Nitro Generator by KunalSingh19 
+24/7 Discord Nitro Generator by [KunalSingh19](https://github.com/KunalSingh19) 
 
 # Requirements
 
@@ -24,7 +24,7 @@ Add  Name ```TOKEN``` and in value add Discord Token
 
 <img src="/img/20220203_111817.jpg"></img>
 
-Warning Don't Use On Main Acc Got Banned. I suggest To Use Alt acc
+Warning Don't Use On Main Acc it can Got Banned. I suggest To Use Alt acc bcz it's like stealing other's nitro
 
 
 This Code is Made for Education Purposes
