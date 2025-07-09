@@ -1,0 +1,28 @@
+KEYMAPOPTS="us us"
+HOSTNAMEOPTS="-n alpine-docker"
+INTERFACESOPTS="auto"
+TIMEZONEOPTS="-z UTC"
+PROXYOPTS="none"
+APKREPOSOPTS="http://dl-cdn.alpinelinux.org/alpine/v3.20/main
+http://dl-cdn.alpinelinux.org/alpine/v3.20/community"
+SSHDOPTS="-c openssh"
+NTPOPTS="-c busybox"
+DISKOPTS="-m sys /dev/vda"
+ROOT_PASSWORD="dockerintermux"
+USEROPTS="-a -u docker -G wheel -s /bin/ash -f 'Docker User'"
+USER_PASSWORD="docker"
+```
+**Explanation and improvements:**
+- Sets a US keyboard layout.
+- Sets a descriptive hostname.
+- Configures network interfaces to auto.
+- Sets timezone to UTC (change if you prefer).
+- No proxy.
+- Uses the latest Alpine v3.20 main and community repositories.
+- Installs and configures OpenSSH and NTP (busybox).
+- Installs to `/dev/vda` with sys mode (adjust if needed, e.g., `/dev/sda` depending on detected disk).
+- Sets a root password (`dockerintermux`) and creates a `docker` user with password `docker`, part of the `wheel` group for `sudo` access.
+- All settings are non-interactive and speed up the install process.
+- **You may change the passwords!**
+
+If your VM uses a different disk device (e.g., `vda` vs `sda`), adjust the `DISKOPTS` accordingly!
